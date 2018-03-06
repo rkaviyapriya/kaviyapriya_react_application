@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+table,
+td,
+th {
+    border: 1px solid #b6c3d8;
+    text-align: left;
+}
+
+th {
+    color: #346fe5;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th:last-child {
+    color: #000000;
+    text-decoration: none;
+}
+
+.displayStyle {
+    display: inline-block;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #b5becc;
+}
+
+.modal-cover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1040;
+    display: none;
+}
+
+.modal-cover.modal-cover-active {
+    display: block;
+}
+
+.modal-container {
+    z-index: 1050;
+    position: fixed;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background: #ffffff;
+    width: 600px;
+    min-height: 100px;
+    left: 50%;
+    top: 20%;
+    margin-left: -300px;
+    display: none;
+}
+
+.modal-container.modal-container-active {
+    display: block;
+}
+
+.modalHeader {
+    height: 30px;
+    background-color: blue;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.modalBody {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.modalFooter {
+    padding: 20px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #000000;
+    color: #397ee5;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+ul li:hover {
+    color: #000000;
+}
+
+ul :last-child {
+    border-right: 0;
+}
+
+.addBtn {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.addBtn:hover {
+    background-color: #b5becc
+}
+
+.textAlignCenter {
+    text-align: left;
+}
+
+.addProductMargin {
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.addTextbox1 {
+    margin-left: 20%;
+    font-size: 12px;
+}
+
+.addTextbox2 {
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+.addTextbox3 {
+    margin-left: 15%;
+    font-size: 12px;
+}
+
+.addTextbox4 {
+    margin-left: 12%;
+    font-size: 12px;
+}
+
+.addTextbox5 {
+    margin-left: 15%;
+    font-size: 12px;
+}
+
+.addMargin {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.editMargin {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.editTextbox1 {
+    margin-left: 10%;
+    font-size: 12px;
+}
+
+.editTextbox2 {
+    margin-left: 20%;
+    font-size: 12px;
+}
+
+.editTextbox3 {
+    margin-left: 17%;
+    font-size: 12px;
+}
+
+.editTextbox4 {
+    margin-left: 20%;
+    font-size: 12px;
+}
+
+.editProductMargin {
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.alignCenter {
+    text-align: center;
+}
